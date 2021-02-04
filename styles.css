@@ -1,0 +1,153 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+}
+
+h1, h2,h3,h4
+{
+    color: #444;
+}
+
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+
+h2
+{
+    font-size: 55px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+h4
+{
+    font-size: 24px;
+}
+
+p
+{
+    line-height: 20px;
+    color: #777
+}
+
+ul
+{
+    list-style: none;
+}
+
+.wapper
+{
+    width: 296px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #444
+}
+
+.orange
+{
+    color: #ff7a00;
+}
+
+.clear
+{
+    clear: both;
+}
+
+small
+{
+    font-size: 13px;
+    font-style: italic;
+}
+
+section
+{
+    padding: auto 150px;
+}
+
+/* HERDER */
+
+header
+{
+    height: 120px;
+}
+
+header h1
+{
+    float: left;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li
+{
+    float: left;    
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 580px;
+    background: url('images/main.jpg') center;
+}
+
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+.button_1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;         /* bord arrondi */ 
+    
+}
+
+.button_1:hover
+{
+    background: #02B8DD;
+}
