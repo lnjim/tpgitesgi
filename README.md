@@ -1,1 +1,1 @@
-pour lancer le projet il faut ouvrir le fichier html
+Pour lancer le projet il faut ouvrir le fichier html
