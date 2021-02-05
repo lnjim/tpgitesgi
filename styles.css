@@ -197,3 +197,84 @@ header nav ul li a
 {
     background: url('images/fusee.png') no-repeat top center;
 }
+
+/* POSSIBILITIES */
+
+#possibilities
+{
+    background-color: #efefef;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#possibilities article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#possibilities article:first-child
+{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.overlay
+{
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.80);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+article h4
+{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#possibilities p
+{
+    text-align: center;
+}
+
+.bouton {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: #3c913c;
+    color: #fff;
+    font-size: 15x;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button_2
+{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 15x;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px; 
+}
+
+.button_2:hover
+{
+    color: #fff;
+    background-color: #02B8DD;    
+}
